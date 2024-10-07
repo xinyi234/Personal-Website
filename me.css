@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.nav-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #333;
+}
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    background: url(img/background.jpeg) no-repeat center center;
+    height: 312px;
+    text-align: center;
+    line-height: 312px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+.introduce {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.introduce-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduce .l {
+    margin-right: 100px;
+}
+.introduce .l img {
+    border-radius: 50%;
+}
+.introduce .r {
+    line-height: 50px;
+    color: #eee;
+}
+.introduce-title {
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    color: #ccc;
+}
+.edu-box {
+    display: flex;
+}
+.edu-box .r1 {
+    margin: 30px;
+    line-height: 26px;
+}
+.edu-box .r1 .tit {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.edu-box .r1 .small {
+    color: #ccc;
+}
